@@ -8,7 +8,7 @@ package edu.daniel.martinez.actividad2.calculadora.process;
 public class Potencia {
     public static int realizarOperacion(int base, int exponente){
         int resultado = 1;
-        Multiplicación mult = new Multiplicación();
+        Multiplicacion mult = new Multiplicacion();
 
         for (int i = 0; i < exponente; i++){
             resultado = mult.realizarOperacion(resultado, base);

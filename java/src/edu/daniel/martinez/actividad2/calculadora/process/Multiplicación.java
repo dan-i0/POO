@@ -7,7 +7,7 @@ package edu.daniel.martinez.actividad2.calculadora.process;
  *  @param b segundo operando
  * */
 
-public class Multiplicación {
+public class Multiplicacion {
     public static int realizarOperacion(int a, int b){
         int resultado = 0;
 

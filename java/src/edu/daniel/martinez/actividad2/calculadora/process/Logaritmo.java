@@ -8,7 +8,7 @@ package edu.daniel.martinez.actividad2.calculadora.process;
 public class Logaritmo {
     public static int realizarOperacion(int numero){
         int contador = 0;
-        División div = new División();
+        Division div = new Division();
 
         while (numero > 1){
             numero = div.realizarOperacion(numero, 2);

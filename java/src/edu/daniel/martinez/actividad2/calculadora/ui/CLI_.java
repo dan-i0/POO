@@ -8,7 +8,7 @@ import edu.daniel.martinez.actividad2.calculadora.process.*;
 
 import java.util.Scanner;
 
-public class CLI_ {
+public class CLI {
     public static void start() {
         Scanner scanner = new Scanner(System.in);
         int opcion;
@@ -24,7 +24,7 @@ public class CLI_ {
             System.out.println("6 Potencia");
             System.out.println("7. Raiz");
             System.out.println("8. Logaritmo");
-            System.out.println("9. salir");
+            System.out.println("9. Salir");
 
             System.out.println("Elige una opcion");
             opcion = scanner.nextInt();

@@ -1,6 +1,7 @@
 package edu.daniel.martinez.actividad1;
 
 import edu.daniel.martinez.actividad1.ui.CLI;
+
 import java.util.Scanner;
 
 /**

@@ -1,8 +1,9 @@
 package edu.daniel.martinez.actividad1.ui;
 
+import edu.daniel.martinez.actividad1.data.Auto;
+import edu.daniel.martinez.actividad1.data.Ticket;
+
 import java.util.Scanner;
-import edu.daniel.martinez.actividad1.Data.Ticket;
-import edu.daniel.martinez.actividad1.Data.Auto;
 
 /**
  * En este CLI se solicita el nombre del comprador y la fecha, captura el auto que se dea comprar y evita no aceptar una opcion invalida

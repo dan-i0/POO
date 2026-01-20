@@ -1,6 +1,6 @@
 package edu.daniel.martinez.actividad2.calculadora;
 
-import edu.daniel.martinez.actividad2.calculadora.ui.CLI_;
+import edu.daniel.martinez.actividad2.calculadora.ui.CLI;
 
 import java.util.Scanner;
 
@@ -8,11 +8,11 @@ import java.util.Scanner;
  *  Este Main corre el programa
  * */
 
-public class Main_ {
+public class Main {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        CLI_ cli = new CLI_();
+        CLI cli = new CLI();
         cli.start();
 
     }

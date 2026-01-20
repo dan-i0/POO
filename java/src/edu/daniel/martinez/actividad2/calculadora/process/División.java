@@ -7,7 +7,7 @@ package edu.daniel.martinez.actividad2.calculadora.process;
  *  @param b segundo operando
  * */
 
-public class División {
+public class Division {
     public static int realizarOperacion(int a, int b){
         int contador = 0;
 

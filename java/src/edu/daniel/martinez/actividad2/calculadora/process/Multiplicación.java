@@ -10,9 +10,10 @@ package edu.daniel.martinez.actividad2.calculadora.process;
 public class Multiplicacion {
     public static int realizarOperacion(int a, int b){
         int resultado = 0;
+        Suma suma = new Suma();
 
         for (int i = 0; i < b; i++){
-            resultado = resultado + a;
+            resultado = suma.realizarOperacion (resultado, a);
         }
         return resultado;
     }

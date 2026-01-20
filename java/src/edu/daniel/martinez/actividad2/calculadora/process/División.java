@@ -10,9 +10,10 @@ package edu.daniel.martinez.actividad2.calculadora.process;
 public class Division {
     public static int realizarOperacion(int a, int b){
         int contador = 0;
+        Resta resta = new Resta();
 
         while (a >= b){
-            a = a - b;
+            a = resta.realizarOperacion(a, b);
             contador++;
         }
         return contador;

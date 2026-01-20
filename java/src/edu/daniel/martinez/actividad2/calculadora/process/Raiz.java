@@ -7,7 +7,7 @@ package edu.daniel.martinez.actividad2.calculadora.process;
 public class Raiz {
     public static int realizarOperacion(int numero){
         int i = 1;
-        Multiplicación mult = new Multiplicación();
+        Multiplicacion mult = new Multiplicacion();
 
         while (mult.realizarOperacion(i, i) <= numero){
             i++;

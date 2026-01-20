@@ -7,8 +7,10 @@ package edu.daniel.martinez.actividad2.calculadora.process;
 
 public class Modulo {
     public static int realizarOperacion(int a, int b){
+        Resta resta = new Resta();
+        
         while (a >= b){
-            a = a - b;
+            a = resta.realizarOperacion (a, b);
         }
         return a;
     }

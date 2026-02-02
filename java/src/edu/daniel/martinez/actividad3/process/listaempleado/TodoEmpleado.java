@@ -84,10 +84,13 @@ public class TodoEmpleado {
             if (e.getSalario() > 25000) {
                 suma += e.getEdad();
                 contador++;
-            }
         }
-        return suma / contador;
     }
+        if (contador == 0) {
+            return 0;
+    }
+        return suma / contador;
+}
 
     /**
      * Dice que empleados son menores a 25 años

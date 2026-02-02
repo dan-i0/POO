@@ -130,23 +130,19 @@ public class TodoEmpleado {
      * @return el empleado con mayor salario y edad mayor a 30
      **/
     public static Empleado mayorSalarioMayorATreintaTest(List<Empleado> empleados) {
-        Empleado mayor = empleados.get(0);
+    Empleado mayor = null;
 
-        for (Empleado e : empleados) {
-            if (e.getEdad() > 30) {
+    for (Empleado e : empleados) {
+        if (e.getEdad() > 30) {
+            if (mayor == null) {
                 mayor = e;
-                break;
+            } else if (e.getSalario() > mayor.getSalario()) {
+                mayor = e;
             }
         }
-        for (Empleado e : empleados) {
-            if (e.getEdad() > 30) {
-                if (e.getSalario() > mayor.getSalario()) {
-                    mayor = e;
-                }
-            }
-        }
-        return mayor;
     }
+    return mayor;
+}
 
     /**
      * Obtiene el empleado con la menor edad y salario
